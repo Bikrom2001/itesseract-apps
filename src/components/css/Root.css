@@ -1,0 +1,16 @@
+.theme-primary-color{
+    color: #1BB57B;
+}
+.theme-secondary-color{
+    color: #F5C310;
+}
+.theme-primary-color-bg{
+    background-color: #1BB57B;
+}
+.theme-secondary-color-bg{
+    background-color: #F5C310;
+}
+
+.text-font{
+    font-family: 'Oxygen Mono', monospace;
+}
