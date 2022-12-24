@@ -1,26 +1,43 @@
-.theme-primary-color{
-    color: #1BB57B;
+.theme-primary-color {
+  color: #1bb57b;
 }
-.theme-secondary-color{
-    color: #F5C310;
+.theme-secondary-color {
+  color: #f5c310;
 }
-.theme-primary-color-bg{
-    background-color: #1BB57B;
+.theme-primary-color-bg {
+  background-color: #1bb57b;
 }
-.theme-secondary-color-bg{
-    background-color: #F5C310;
-}
-
-.text-font{
-    font-family: 'Oxygen Mono', monospace;
+.theme-secondary-color-bg {
+  background-color: #f5c310;
 }
 
-.footer-color{
-    color: #0A033C;
+.text-font {
+  font-family: "Oxygen Mono", monospace;
 }
-.footer-color2{
-    color: #0B7077;
+
+.footer-color {
+  color: #0a033c;
 }
-.footer-color-bg{
-    background-color: #0B7077;
+.footer-color2 {
+  color: #0b7077;
+}
+.footer-color-bg {
+  background-color: #0b7077;
+}
+.font-size {
+  font-size: 34px;
+  line-height: normal;
+  font-weight: 800;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color:rgba(4, 9, 30, 0.6);
 }

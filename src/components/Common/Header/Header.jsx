@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="px-4 py-5 bg-orange-400 mx-auto sm:max-w-full md:max-w-full lg:max-w-screen md:px-24 lg:px-14">
+    <div className="px-4 py-5 bg-white mx-auto sm:max-w-full md:max-w-full lg:max-w-screen md:px-24 lg:px-14">
       <div className="relative flex items-center justify-between">
         <Link
           to="/"
@@ -173,7 +173,7 @@ const Header = () => {
                   </div>
                 </div>
                 <nav>
-                  <ul className="space-y-4">
+                  <ul className="space-y-4 text-center">
                     <li>
                       <Link
                         to="/about"
