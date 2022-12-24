@@ -18,7 +18,7 @@ const Header = () => {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="flex-shrink-0 w-8 h-8 rounded-full text-gray-900"
+            className="flex-shrink-0 w-8 h-8 rounded-full theme-primary-color"
           >
             <path
               stroke-linecap="round"

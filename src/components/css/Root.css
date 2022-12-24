@@ -14,3 +14,13 @@
 .text-font{
     font-family: 'Oxygen Mono', monospace;
 }
+
+.footer-color{
+    color: #0A033C;
+}
+.footer-color2{
+    color: #0B7077;
+}
+.footer-color-bg{
+    background-color: #0B7077;
+}
