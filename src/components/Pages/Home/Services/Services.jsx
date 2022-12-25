@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "../../../Common/Title/Title";
+import Features from "../Features/Features";
 
 const Services = () => {
   return (
@@ -143,6 +144,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+        <Features></Features>
       </div>
     </section>
   );
