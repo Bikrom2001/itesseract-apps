@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section class="bg-white lg:flex lg:justify-center lg:items-center">
       <div className="container px-6 mx-auto space-y-6 lg:px-8 lg:space-y-8">
-        <div class="overflow-hidden bg-[#F6F9FF] py-10 md:py-20 md:px-14 px-4 lg:flex lg:w-full lg:items-center lg:shadow-md lg:rounded-xl">
+        <div class="overflow-hidden bg-[#F6F9FF] py-10 md:py-20 md:px-14 px-4 lg:flex lg:w-full lg:items-center  lg:rounded-xl">
           <div class="lg:w-1/2">
             <div>
               <h2 className="font-bold text-3xl md:text-4xl">
