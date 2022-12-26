@@ -21,18 +21,20 @@ const Contact = () => {
           </div>
 
           <div class="max-w-xl px-0 md:px-6 py-12 lg:max-w-5xl lg:w-1/2">
-            <fieldset className="w-full space-y-1 dark:text-black">
-              <div className="flex shadow-lg">
-                <input
-                  type="text"
-                  name="url"
-                  id="url"
-                  placeholder="Phone Number"
-                  className="flex flex-1 p-5 sm:text-sm focus:ring-inset dark:border-gray-700 rounded-l-md dark:text-black dark:bg-white focus:ring-violet-400"
-                />
+            <fieldset className=" text-black">
+              <div className="flex">
+                <div>
+                  <input
+                    type="text"
+                    name="url"
+                    id="url"
+                    placeholder="Phone Number"
+                    className="p-5 w-auto lg:w-80  sm:text-sm focus:ring-inset dark:border-gray-700 rounded-l-md dark:text-black dark:bg-white focus:ring-violet-400"
+                  />
+                </div>
                 <button
                   type="button"
-                  className="flex items-center px-3 pointer-events-none sm:text-sm rounded-r-md theme-primary-color-bg text-white"
+                  className=" py-3 md:py-0 items-center px-3  sm:text-xs rounded-r-md theme-primary-color-bg text-white"
                 >
                   Book Demo Class
                 </button>

@@ -7,7 +7,7 @@ const Features = () => {
     <div>
       <section class=" pt-16 lg:flex lg:justify-center lg:items-center">
         <div className="container mx-auto">
-          <div class="overflow-hidden bg-[#F7F9FF] py-8 md:py-8 md:px-14 px-4 lg:flex lg:w-full lg:items-center  lg:rounded-xl">
+          <div class="overflow-hidden bg-[#F7F9FF] py-8 md:py-8 md:px-14 px-4 lg:flex lg:w-full lg:items-center rounded-xl">
             <div class="lg:w-1/2">
               <img
                 src={image}

@@ -15,7 +15,7 @@ const Testimonial = () => {
   return (
     <section className="pt-14 pb-4">
       <div className="container mx-auto">
-        <div class="overflow-hidden bg-[#d9e1fa] py-8 md:py-8 md:px-14 px-4 lg:w-full lg:rounded-xl">
+        <div class="overflow-hidden bg-[#d9e1fa] py-8 md:py-8 md:px-14 px-4 lg:w-full rounded-xl">
           <Title
             title="Lorem"
             text="ipsum"

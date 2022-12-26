@@ -6,7 +6,7 @@ const Footers = () => {
   return (
     <section>
       <footer className="p-6 bg-[#ADFFE0] dark:text-gray-100">
-        <div className="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="container grid grid-cols-1 mx-auto gap-x-3 gap-y-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <div className="flex flex-col space-y-4">
             <Link
               to="/"
@@ -133,7 +133,7 @@ const Footers = () => {
                     name="email"
                     id="email"
                     placeholder="Email"
-                    className=" p-4 w-36 md:w-40 lg:w-48 text-right border sm:text-sm rounded-l-md focus:ring-inset dark:border-gray-700 dark:text-black dark:bg-white focus:ring-violet-400"
+                    className=" p-4 text-right border sm:text-sm rounded-l-md focus:ring-inset dark:border-gray-700 dark:text-black dark:bg-white focus:ring-violet-400"
                   />
                   <button
                     type="button"
