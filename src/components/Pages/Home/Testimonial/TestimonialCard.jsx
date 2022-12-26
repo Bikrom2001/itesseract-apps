@@ -10,7 +10,7 @@ const TestimonialCard = ({ img, text, author, company }) => {
           className="w-40 h-40 card-shadow mb-2 -mt-44 bg-center object-center bg-cover rounded-full "
         />
 
-        <p className="px-6 mt-2">
+        <p className="px-0 text-justify md:px-6 mt-2">
           {text}
         </p>
 
@@ -56,7 +56,7 @@ const TestimonialCard = ({ img, text, author, company }) => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              class="w-8 h-8 text-yellow-500"
+              class="w-8 h-8 text-yellow-500 hidden md:block"
             >
               <path
                 fill-rule="evenodd"
@@ -67,8 +67,8 @@ const TestimonialCard = ({ img, text, author, company }) => {
           </div>
 
           <div>
-            <p className="text-lg font-semibold">{author}</p>
-            <p className="text-sm dark:text-gray-400">{company}</p>
+            <p className="text-sm md:text-lg font-semibold">{author}</p>
+            <p className="text-xs md:text-sm dark:text-gray-400">{company}</p>
           </div>
         </div>
       </div>
