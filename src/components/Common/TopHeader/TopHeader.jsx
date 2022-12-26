@@ -26,7 +26,7 @@ const TopHeader = () => {
               ></FaLinkedin>
             </div>
             <div className="flex items-center flex-wrap gap-3">
-              <p className="text-font text-white">Book for demo class!</p>
+              <p className="text-font hidden md:block text-white">Book for demo class!</p>
               <button className="theme-secondary-color-bg px-3 py-1 text-sm rounded-full">
                 Contact Now
               </button>
