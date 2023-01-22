@@ -97,6 +97,16 @@ const Header = () => {
               Blog
             </Link>
           </li>
+          <li>
+            <Link
+              to="/contact"
+              aria-label="Contact "
+              title="Contact us "
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              Contact us
+            </Link>
+          </li>
         </ul>
         <div className="lg:hidden">
           <button
@@ -222,6 +232,16 @@ const Header = () => {
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Blog
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/contact"
+                        aria-label="contact"
+                        title="Contact us"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Contact us
                       </Link>
                     </li>
                   </ul>

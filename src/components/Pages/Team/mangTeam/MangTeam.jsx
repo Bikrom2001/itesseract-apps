@@ -48,7 +48,7 @@ const MangTeam = () => {
                       <div class="space-y-3">
                         <div className="cursor-pointer">
                           <img
-                            className="rounded-lg shadow-lg w-full object-cover"
+                            className="rounded-lg hover:-translate-y-2 duration-200 ease-in-out  shadow-lg w-full object-cover"
                             src={teamMember.img}
                             alt=""
                           />
