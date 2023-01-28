@@ -36,9 +36,9 @@ const FreeClass = () => {
             </div>
           </div>
 
-          <div className="about-bg">
+          <div className="about-bg lg:py-24 py-6">
             <div className="p-6 lg:p-10">
-              <div>
+              <div className="mb-7">
                 <div className="lg:block hidden">
                   <div className="flex items-center gap-6">
                     <div>
@@ -72,7 +72,12 @@ const FreeClass = () => {
                     id=""
                     className="input-filed"
                   />
-                  <button className="start-btn uppercase text-white" type="submit">Get Started Now</button>
+                  <button
+                    className="start-btn uppercase text-white"
+                    type="submit"
+                  >
+                    Get Started Now
+                  </button>
                 </form>
               </div>
             </div>
