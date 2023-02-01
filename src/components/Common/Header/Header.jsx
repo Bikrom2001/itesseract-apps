@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaAngleRight } from "react-icons/fa";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -82,9 +83,23 @@ const Header = () => {
               to="/courses"
               aria-label="Courses "
               title="Courses "
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-medium dropdown dropdown-hover tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Courses
+              Courses &raquo;
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu p-2 shadow bg-base-300 rounded-sm w-52"
+              >
+                <li>
+                  <Link to="/school">School</Link>
+                </li>
+                <li>
+                  <Link to="/">University</Link>
+                </li>
+                <li>
+                  <Link to="/">Certification</Link>
+                </li>
+              </ul>
             </Link>
           </li>
           <li>
@@ -216,12 +231,25 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        to="/courses"
                         aria-label="Courses "
                         title="Courses "
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-medium dropdown dropdown-bottom tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Courses
+                        Courses &raquo;
+                        <ul
+                          tabIndex={0}
+                          className="dropdown-content menu p-2 shadow bg-base-300 rounded-box w-52"
+                        >
+                          <li>
+                            <Link to="/school">School</Link>
+                          </li>
+                          <li>
+                            <Link to="/">University</Link>
+                          </li>
+                          <li>
+                            <Link to="/">Certification</Link>
+                          </li>
+                        </ul>
                       </Link>
                     </li>
                     <li>
