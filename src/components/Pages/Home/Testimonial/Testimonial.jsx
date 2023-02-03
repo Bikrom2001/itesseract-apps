@@ -34,9 +34,7 @@ const Testimonial = () => {
                     spaceBetween: 30,
                   },
                 }}
-                pagination={{
-                  clickable: true,
-                }}
+              
                 modules={[Pagination]}
                 className="mySwiper"
               >
